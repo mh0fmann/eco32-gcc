@@ -725,7 +725,7 @@ case ${target} in
       tm_defines="$tm_defines DEFAULT_LIBC=LIBC_UCLIBC"
       ;;
     *-*-musl*)
-      tm_defines="$tm_defines DEFAULT_LIBC=MUSL_LIBC"
+      tm_defines="$tm_defines DEFAULT_LIBC=LIBC_MUSL"
       ;;
     *)
       tm_defines="$tm_defines DEFAULT_LIBC=LIBC_GLIBC"
